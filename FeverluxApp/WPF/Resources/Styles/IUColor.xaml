@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!--Background Colors-->
+    <SolidColorBrush x:Key="loginViewBackColor" Color="#d9d9d9"/>
+    <SolidColorBrush x:Key="backOverColor" Color="#255c3e" Opacity="0.3"/>
+
+    <!-- Font Colors-->
+    <SolidColorBrush x:Key="loginTitleFontColor" Color="#489c6f"/>
+    <SolidColorBrush x:Key="loginFontColor" Color="#2b4f2d"/>
+</ResourceDictionary>

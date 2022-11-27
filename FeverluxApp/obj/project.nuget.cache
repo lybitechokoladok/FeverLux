@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yelTGsKhNaSV369oDKT+7JB9RR51brIgnt+wpR6YxOMMYhLySIChSKWNUZ5TCiH/u00/3Xy8pmGRrotkMOBfAA==",
+  "success": true,
+  "projectFilePath": "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\FeverluxApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pasho\\.nuget\\packages\\fontawesome.sharp\\6.1.1\\fontawesome.sharp.6.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

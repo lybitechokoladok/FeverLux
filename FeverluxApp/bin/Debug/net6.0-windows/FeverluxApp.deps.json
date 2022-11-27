@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FeverluxApp/1.0.0": {
+        "runtime": {
+          "FeverluxApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FeverluxApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
