@@ -1,10 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "yelTGsKhNaSV369oDKT+7JB9RR51brIgnt+wpR6YxOMMYhLySIChSKWNUZ5TCiH/u00/3Xy8pmGRrotkMOBfAA==",
+  "dgSpecHash": "g1OzkfG40c6Gmjr1E+zrCcUXLqM7WhprcAFwFZc5SIV4HcbnmAkA9hWKneneMphrX6tIvc4t03gzdpgOxIuIaQ==",
   "success": true,
   "projectFilePath": "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\FeverluxApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\pasho\\.nuget\\packages\\fontawesome.sharp\\6.1.1\\fontawesome.sharp.6.1.1.nupkg.sha512"
+    "C:\\Users\\pasho\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"FontAwesome.WPF 4.7.0.9\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "FontAwesome.WPF",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

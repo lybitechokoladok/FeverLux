@@ -45,9 +45,9 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
-            "FontAwesome.Sharp": {
+            "FontAwesome.WPF": {
               "target": "Package",
-              "version": "[6.1.1, )"
+              "version": "[4.7.0.9, )"
             }
           },
           "imports": [

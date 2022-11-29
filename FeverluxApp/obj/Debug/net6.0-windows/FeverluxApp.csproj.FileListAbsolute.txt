@@ -29,3 +29,5 @@ D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\WPF\Co
 D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\WPF\Views\MainView.g.cs
 D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\WPF\Controls\NavigationBar.baml
 D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\WPF\Views\MainView.baml
+D:\visual_Studio_project\FeverluxApp\FeverluxApp\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
+D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\FeverluxApp.csproj.CopyComplete

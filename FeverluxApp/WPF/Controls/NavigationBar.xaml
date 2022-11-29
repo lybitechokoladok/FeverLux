@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:FeverluxApp.WPF.Controls"
+             xmlns:fa="http://schemas.fontawesome.io/icons/"
              xmlns:nav="clr-namespace:FeverluxApp.WPF.State.Navigators"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
@@ -22,20 +23,35 @@
         <StackPanel Orientation="Horizontal"
                     FlowDirection="LeftToRight"
                     Grid.Row="1"
-                    Background="{StaticResource loginFontColor}">
-            <RadioButton Content="Home"
-                         Foreground="LightGray"
-                         FontSize="16" 
+                    Background="LightGray">
+            
+            <RadioButton Style="{StaticResource menuButton}"
+                         Tag="{StaticResource Color4}"
                          Command="{Binding UpdateCurrentViewModelCommand}" 
-                         CommandParameter="{x:Static nav:ViewType.Home}"/>
-            <RadioButton Content="Shop"
-                         Foreground="LightGray"
-                         FontSize="16"
+                         CommandParameter="{x:Static nav:ViewType.Home}">
+                <StackPanel Orientation="Horizontal">
+                    <fa:ImageAwesome Icon="Home" Style="{StaticResource menuButtonIcon}"/>
+                    <TextBlock Text="Home" Style="{StaticResource menuButtonText}"/>
+                </StackPanel>
+            </RadioButton>
+
+            <RadioButton Style="{StaticResource menuButton}"
+                         Tag="{StaticResource Color2}"
                          Command="{Binding UpdateCurrentViewModelCommand}"
-                         CommandParameter="{x:Static nav:ViewType.Shop}"/>
-            <RadioButton Content="Customer"
-                         Foreground="LightGray"
-                         FontSize="16"/>
+                         CommandParameter="{x:Static nav:ViewType.Shop}">
+                <StackPanel Orientation="Horizontal">
+                    <fa:ImageAwesome Icon="ShoppingCart" Style="{StaticResource menuButtonIcon}"/>
+                    <TextBlock Text="Shop" Style="{StaticResource menuButtonText}"/>
+                </StackPanel>
+            </RadioButton>
+
+            <RadioButton Style="{StaticResource menuButton}"
+                         Tag="{StaticResource Color3}">
+                <StackPanel Orientation="Horizontal">
+                    <fa:ImageAwesome Icon="User" Style="{StaticResource menuButtonIcon}"/>
+                    <TextBlock Text="Customers" Style="{StaticResource menuButtonText}"/>
+                </StackPanel>
+            </RadioButton>
         </StackPanel>
     </Grid>
 </UserControl>

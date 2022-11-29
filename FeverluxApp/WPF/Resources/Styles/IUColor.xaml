@@ -8,4 +8,20 @@
     <!-- Font Colors-->
     <SolidColorBrush x:Key="loginTitleFontColor" Color="#489c6f"/>
     <SolidColorBrush x:Key="loginFontColor" Color="#2b4f2d"/>
+    <SolidColorBrush x:Key="mainMenuFontColor" Color="#b5babd"/>
+    <SolidColorBrush x:Key="mainMenuOverFontColor" Color="#374a3d"/>
+
+    <!-- Button colors-->
+    <SolidColorBrush x:Key="loginButtonBackColor" Color="#2b5875"/>
+    <SolidColorBrush x:Key="loginButtonOver" Color="#4a708a"/>
+    
+    <!--Panel colors-->
+    <SolidColorBrush x:Key="panelOverColor" Color="#4c4d4f" Opacity="0.4"/>
+    <SolidColorBrush x:Key="panelActiveColor" Color="#4a3a4a" Opacity="0.6"/>
+
+    <!--Color palette-->
+    <SolidColorBrush x:Key="Color1" Color="#1b3837"/>
+    <SolidColorBrush x:Key="Color2" Color="#871036"/>
+    <SolidColorBrush x:Key="Color3" Color="#6b326a"/>
+    <SolidColorBrush x:Key="Color4" Color="#192447"/>
 </ResourceDictionary>

@@ -19,7 +19,6 @@ using System.Windows.Controls.Primitives;
 using System.Windows.Controls.Ribbon;
 using System.Windows.Data;
 using System.Windows.Documents;
-using System.Windows.Forms.Integration;
 using System.Windows.Ink;
 using System.Windows.Input;
 using System.Windows.Markup;
@@ -62,7 +61,7 @@ namespace FeverluxApp.WPF.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/FeverluxApp;V1.0.0.0;component/wpf/controls/bindablepasswordbox.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/FeverluxApp;component/wpf/controls/bindablepasswordbox.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\WPF\Controls\BindablePasswordBox.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

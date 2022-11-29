@@ -8,12 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="WPF\Resources\Assets\" />
-    <Folder Include="WPF\Converters\" />
+    <None Remove="WPF\Resources\Assets\facebook-icon.png" />
+    <None Remove="WPF\Resources\Assets\google-icon.png" />
+    <None Remove="WPF\Resources\Assets\twitter-circle.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="FontAwesome.Sharp" Version="6.1.1" />
+    <PackageReference Include="FontAwesome.WPF" Version="4.7.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="WPF\Resources\Assets\facebook-icon.png" />
+    <Resource Include="WPF\Resources\Assets\google-icon.png" />
+    <Resource Include="WPF\Resources\Assets\twitter-circle.png" />
   </ItemGroup>
 
 </Project>
