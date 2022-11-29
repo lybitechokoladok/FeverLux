@@ -1,20 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "g1OzkfG40c6Gmjr1E+zrCcUXLqM7WhprcAFwFZc5SIV4HcbnmAkA9hWKneneMphrX6tIvc4t03gzdpgOxIuIaQ==",
+  "dgSpecHash": "EJV0kKWPEvQxX8tvxkT2QELn1sIu+rtakYxchy8aXHJxNkVKLgCZIK2FO5PACiiZEgtMl+pMju/et3lnM7F5Og==",
   "success": true,
-  "projectFilePath": "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\FeverluxApp.csproj",
+  "projectFilePath": "D:\\Repositories\\FeverLux\\FeverluxApp\\FeverluxApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\pasho\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512"
+    "C:\\Users\\pasho\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512",
+    "C:\\Users\\pasho\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\pasho\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\pasho\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\pasho\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"FontAwesome.WPF 4.7.0.9\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"FontAwesome.WPF 4.7.0.9\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net5.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "FontAwesome.WPF",
       "targetGraphs": [
-        "net6.0-windows7.0"
+        "net5.0-windows7.0"
       ]
     }
   ]
