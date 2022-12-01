@@ -12,7 +12,7 @@ namespace FeverluxApp.WPF.ViewModels
     public class LoginViewModel : ViewModelBase
     {
         private string _username;
-        private SecureString _password;
+        private string _password;
         private string _errorMessage;
         private bool _isViewVisible = true;
 
@@ -25,7 +25,7 @@ namespace FeverluxApp.WPF.ViewModels
                 OnPropetyChanged(nameof(Username));
             }
         }
-        public SecureString Password 
+        public string Password 
         {
             get => _password; 
             set 

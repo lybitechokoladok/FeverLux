@@ -115,11 +115,10 @@
                                    VerticalAlignment="Center"
                                    FontWeight="Medium"/>
 
-                                <CheckBox x:Name="showPassword"
-                                          VerticalAlignment="Center"
-                                          Margin="10,0,0,0"
-                                          Content="show password">
-                                </CheckBox>
+                                <controls:EyedCheckBox x:Name="showPassword"
+                                                       Margin="10,0,0,0">
+                                    
+                                </controls:EyedCheckBox>
                             </StackPanel>
 
                             <controls:BindablePasswordBox Password="{Binding Password, 
@@ -130,7 +129,10 @@
                                 <controls:BindablePasswordBox.Style>
                                     <Style TargetType="controls:BindablePasswordBox">
                                         <Style.Triggers>
-                                            <DataTrigger Binding="{Binding IsChecked, ElementName=showPassword}" Value="True">
+                                            <DataTrigger Binding="{Binding IsChecked, Mode=OneWay,
+                                                                           ElementName=showPassword, 
+                                                                           UpdateSourceTrigger=PropertyChanged}"
+                                                         Value="True">
                                                 <Setter Property="Visibility" Value="Collapsed"/>
                                             </DataTrigger>
                                         </Style.Triggers>
@@ -139,13 +141,25 @@
                             </controls:BindablePasswordBox>
                             
                             <TextBox Height="28"
-                                     Text="{Binding Password, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}">
+                                     FontSize="16"
+                                     FontFamily="Montserrat"
+                                     FontWeight="Medium"
+                                     Foreground="{StaticResource loginFontColor}"
+                                     CaretBrush="LightGray"
+                                     BorderBrush="DarkGray"
+                                     BorderThickness="0,0,0,2"
+                                     VerticalContentAlignment="Center"
+                                     Padding="20,0,0,0"
+                                     Text="{Binding Password}">
 
                                 <TextBox.Style>
                                     <Style TargetType="TextBox">
                                         <Setter Property="Visibility" Value="Collapsed"/>
                                         <Style.Triggers>
-                                            <DataTrigger Binding="{Binding IsChecked, ElementName=showPassword}" Value="True">
+                                            <DataTrigger Binding="{Binding IsChecked, 
+                                                                           ElementName=showPassword,
+                                                                           UpdateSourceTrigger=PropertyChanged}" 
+                                                         Value="True">
                                                 <Setter Property="Visibility" Value="Visible"/>
                                             </DataTrigger>
                                         </Style.Triggers>

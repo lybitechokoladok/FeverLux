@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Security;
 using System.Text;
@@ -21,24 +22,45 @@ namespace FeverluxApp.WPF.Controls
     /// </summary>
     public partial class BindablePasswordBox : UserControl
     {
-        public static readonly DependencyProperty PasswordProperty =
-            DependencyProperty.Register("Password", typeof(SecureString), typeof(BindablePasswordBox));
+        private bool _isPasswordChanging;
 
-        public SecureString Password 
+        public static readonly DependencyProperty PasswordProperty =
+            DependencyProperty.Register("Password", typeof(string), typeof(BindablePasswordBox),
+                new FrameworkPropertyMetadata(string.Empty,FrameworkPropertyMetadataOptions.BindsTwoWayByDefault,
+                    PasswordPropertyChanged, null, false, UpdateSourceTrigger.PropertyChanged));
+
+        private static void PasswordPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
-            get { return (SecureString)GetValue(PasswordProperty);}
+            if(d is BindablePasswordBox passwordBox) 
+            {
+                passwordBox.UpdatePassword();            
+            }
+        }
+
+        public string Password 
+        {
+            get { return (string)GetValue(PasswordProperty);}
             set { SetValue(PasswordProperty, value); }
         }
 
         public BindablePasswordBox()
         {
             InitializeComponent();
-            txtPassword.PasswordChanged += OnPasswordChanged;
         }
 
-        private void OnPasswordChanged(object sender, RoutedEventArgs e)
+        private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
         {
-            Password = txtPassword.SecurePassword;
+            _isPasswordChanging = true;
+            Password = passwordBox.Password;
+            _isPasswordChanging = false;
+        }
+
+        private void UpdatePassword()
+        {
+            if (!_isPasswordChanging)
+            {
+                passwordBox.Password = Password;
+            }
         }
     }
 }

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
@@ -10,7 +10,9 @@
   <ItemGroup>
     <None Remove="WPF\Resources\Assets\facebook-icon.png" />
     <None Remove="WPF\Resources\Assets\google-icon.png" />
+    <None Remove="WPF\Resources\Assets\hide.png" />
     <None Remove="WPF\Resources\Assets\twitter-circle.png" />
+    <None Remove="WPF\Resources\Assets\view.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,7 +22,9 @@
   <ItemGroup>
     <Resource Include="WPF\Resources\Assets\facebook-icon.png" />
     <Resource Include="WPF\Resources\Assets\google-icon.png" />
+    <Resource Include="WPF\Resources\Assets\hide.png" />
     <Resource Include="WPF\Resources\Assets\twitter-circle.png" />
+    <Resource Include="WPF\Resources\Assets\view.png" />
   </ItemGroup>
 
 </Project>

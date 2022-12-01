@@ -10,7 +10,13 @@
     <Compile Update="WPF\Controls\BindablePasswordBox.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="WPF\Controls\EyedCheckBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="WPF\Controls\NavigationBar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WPF\Views\HomeView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="WPF\Views\LoginView.xaml.cs">
@@ -19,9 +25,15 @@
     <Compile Update="WPF\Views\MainView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="WPF\Views\ShopView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="WPF\Controls\BindablePasswordBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WPF\Controls\EyedCheckBox.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="WPF\Controls\NavigationBar.xaml">
@@ -30,10 +42,16 @@
     <Page Update="WPF\Resources\Styles\IUColor.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="WPF\Views\HomeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="WPF\Views\LoginView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="WPF\Views\MainView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WPF\Views\ShopView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

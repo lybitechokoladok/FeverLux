@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:viewModel="clr-namespace:FeverluxApp.WPF.ViewModels"
+             xmlns:view="clr-namespace:FeverluxApp.WPF.Views"
              xmlns:local="clr-namespace:FeverluxApp.WPF.Controls"
              xmlns:fa="http://schemas.fontawesome.io/icons/"
              xmlns:nav="clr-namespace:FeverluxApp.WPF.State.Navigators"
@@ -13,12 +15,6 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-
-        <TextBlock Grid.Row="0"
-                   Text="FeverLux"
-                   Foreground="LightGray"
-                   FontSize="20"
-                   Background="#5aa66e"/>
 
         <StackPanel Orientation="Horizontal"
                     FlowDirection="LeftToRight"

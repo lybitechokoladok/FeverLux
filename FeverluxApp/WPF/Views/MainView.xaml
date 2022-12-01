@@ -8,19 +8,62 @@
         xmlns:viewModels="clr-namespace:FeverluxApp.WPF.ViewModels"
         mc:Ignorable="d"
         Title="MainView" Height="450" Width="800"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        MinHeight="200" MinWidth="500">
+
     <Window.DataContext>
         <viewModels:MainViewModel/>
     </Window.DataContext>
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        
-        <controls:NavigationBar Grid.Row="0" DataContext="{Binding Navigator}"/>
 
-        <ContentControl Grid.Row="1"
+        <Grid x:Name="panelControlBar"
+              Grid.Row="0" 
+              Background="{StaticResource mainTitleColor}"
+              MouseLeftButtonDown="PanelControlBar_MouseLeftButtonDown">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="30"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="0"
+                   Text="FeverLux"
+                   Foreground="LightGray"
+                   VerticalAlignment="Center"
+                   FontSize="20"/>
+
+            <Button x:Name="btnMinimaze"
+                    Grid.Column="1"
+                    Content="-"
+                    Foreground="LightGray"
+                    Style="{StaticResource loginButtonStyle}"
+                    Click="BtnMinimaze_Click"/>
+            
+            <Button x:Name="btnMaximaze"
+                    Grid.Column="2"
+                    Content="+"
+                    Foreground="LightGray"
+                    Style="{StaticResource loginButtonStyle}"
+                    Click="BtnMaximaze_Click"/>
+
+            <Button x:Name="btnClose"
+                    Grid.Column="3"
+                    Content="X"
+                    Foreground="LightGray"
+                    Style="{StaticResource loginButtonStyle}"
+                    Click="BtnClose_Click"/>
+        </Grid>
+        
+        <controls:NavigationBar Grid.Row="1" DataContext="{Binding Navigator}"/>
+
+        <ContentControl Grid.Row="2"
                         Content="{Binding Navigator.CurrentViewModel}">
             
         </ContentControl>

@@ -4,6 +4,7 @@
     <!--Background Colors-->
     <SolidColorBrush x:Key="loginViewBackColor" Color="#d9d9d9"/>
     <SolidColorBrush x:Key="backOverColor" Color="#255c3e" Opacity="0.3"/>
+    <SolidColorBrush x:Key="mainTitleColor" Color="#5aa66e"/>
 
     <!-- Font Colors-->
     <SolidColorBrush x:Key="loginTitleFontColor" Color="#489c6f"/>
