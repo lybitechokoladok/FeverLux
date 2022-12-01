@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 D:\Repositories\FeverLux\FeverluxApp\App.xaml
-61281586373
+9-683990406
 
-22532463478
-194-912383225
-WPF\Controls\BindablePasswordBox.xaml;WPF\Controls\NavigationBar.xaml;WPF\Resources\Styles\ButtonStyle.xaml;WPF\Resources\Styles\IUColor.xaml;WPF\Views\LoginView.xaml;WPF\Views\MainView.xaml;
+25-1312100683
+1942063720214
+WPF\Controls\BindablePasswordBox.xaml;WPF\Controls\EyedCheckBox.xaml;WPF\Controls\NavigationBar.xaml;WPF\Resources\Styles\ButtonStyle.xaml;WPF\Resources\Styles\IUColor.xaml;WPF\Views\HomeView.xaml;WPF\Views\LoginView.xaml;WPF\Views\MainView.xaml;WPF\Views\ShopView.xaml;
 
-False
+True
 

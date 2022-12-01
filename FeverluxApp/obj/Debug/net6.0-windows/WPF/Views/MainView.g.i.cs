@@ -87,7 +87,7 @@ namespace FeverluxApp.WPF.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/FeverluxApp;component/wpf/views/mainview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/FeverluxApp;V1.0.0.0;component/wpf/views/mainview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\WPF\Views\MainView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

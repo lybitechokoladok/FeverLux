@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {
+    "net5.0-windows7.0": {
       "FontAwesome.WPF/4.7.0.9": {
         "type": "package",
         "compile": {
@@ -43,7 +43,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": [
+    "net5.0-windows7.0": [
       "FontAwesome.WPF >= 4.7.0.9"
     ]
   },
@@ -54,11 +54,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\FeverluxApp.csproj",
+      "projectUniqueName": "D:\\Repositories\\FeverLux\\FeverluxApp\\FeverluxApp.csproj",
       "projectName": "FeverluxApp",
-      "projectPath": "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\FeverluxApp.csproj",
+      "projectPath": "D:\\Repositories\\FeverLux\\FeverluxApp\\FeverluxApp.csproj",
       "packagesPath": "C:\\Users\\pasho\\.nuget\\packages\\",
-      "outputPath": "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\obj\\",
+      "outputPath": "D:\\Repositories\\FeverLux\\FeverluxApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\va cash\\NuGetPackages"
@@ -69,7 +69,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net5.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -77,8 +77,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
           "projectReferences": {}
         }
       },
@@ -89,8 +89,8 @@
       }
     },
     "frameworks": {
-      "net6.0-windows7.0": {
-        "targetAlias": "net6.0-windows",
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
         "dependencies": {
           "FontAwesome.WPF": {
             "target": "Package",
@@ -125,10 +125,10 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"FontAwesome.WPF 4.7.0.9\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"FontAwesome.WPF 4.7.0.9\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net5.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "FontAwesome.WPF",
       "targetGraphs": [
-        "net6.0-windows7.0"
+        "net5.0-windows7.0"
       ]
     }
   ]

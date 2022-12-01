@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\FeverluxApp.csproj": {}
+    "D:\\Repositories\\FeverLux\\FeverluxApp\\FeverluxApp.csproj": {}
   },
   "projects": {
-    "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\FeverluxApp.csproj": {
+    "D:\\Repositories\\FeverLux\\FeverluxApp\\FeverluxApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\FeverluxApp.csproj",
+        "projectUniqueName": "D:\\Repositories\\FeverLux\\FeverluxApp\\FeverluxApp.csproj",
         "projectName": "FeverluxApp",
-        "projectPath": "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\FeverluxApp.csproj",
+        "projectPath": "D:\\Repositories\\FeverLux\\FeverluxApp\\FeverluxApp.csproj",
         "packagesPath": "C:\\Users\\pasho\\.nuget\\packages\\",
-        "outputPath": "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\obj\\",
+        "outputPath": "D:\\Repositories\\FeverLux\\FeverluxApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\va cash\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net5.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
           "dependencies": {
             "FontAwesome.WPF": {
               "target": "Package",

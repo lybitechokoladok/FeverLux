@@ -32,3 +32,9 @@ D:\Repositories\FeverLux\FeverluxApp\obj\Debug\net5.0-windows\refint\FeverluxApp
 D:\Repositories\FeverLux\FeverluxApp\obj\Debug\net5.0-windows\FeverluxApp.pdb
 D:\Repositories\FeverLux\FeverluxApp\obj\Debug\net5.0-windows\FeverluxApp.genruntimeconfig.cache
 D:\Repositories\FeverLux\FeverluxApp\obj\Debug\net5.0-windows\ref\FeverluxApp.dll
+D:\Repositories\FeverLux\FeverluxApp\obj\Debug\net5.0-windows\WPF\Controls\EyedCheckBox.g.cs
+D:\Repositories\FeverLux\FeverluxApp\obj\Debug\net5.0-windows\WPF\Views\HomeView.g.cs
+D:\Repositories\FeverLux\FeverluxApp\obj\Debug\net5.0-windows\WPF\Views\ShopView.g.cs
+D:\Repositories\FeverLux\FeverluxApp\obj\Debug\net5.0-windows\WPF\Controls\EyedCheckBox.baml
+D:\Repositories\FeverLux\FeverluxApp\obj\Debug\net5.0-windows\WPF\Views\HomeView.baml
+D:\Repositories\FeverLux\FeverluxApp\obj\Debug\net5.0-windows\WPF\Views\ShopView.baml
