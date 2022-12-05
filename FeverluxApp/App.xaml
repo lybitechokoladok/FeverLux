@@ -9,6 +9,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/WPF/Resources/Styles/IUColor.xaml"/>
                 <ResourceDictionary Source="/WPF/Resources/Styles/ButtonStyle.xaml"/>
+                <ResourceDictionary Source="/WPF/Resources/Styles/CheckBoxStyle.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 
             <DataTemplate DataType="{x:Type viewModels:HomeViewModel}">

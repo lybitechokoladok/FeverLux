@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repositories\\FeverLux\\FeverluxApp\\FeverluxApp.csproj": {}
+    "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\FeverluxApp.csproj": {}
   },
   "projects": {
-    "D:\\Repositories\\FeverLux\\FeverluxApp\\FeverluxApp.csproj": {
+    "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\FeverluxApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositories\\FeverLux\\FeverluxApp\\FeverluxApp.csproj",
+        "projectUniqueName": "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\FeverluxApp.csproj",
         "projectName": "FeverluxApp",
-        "projectPath": "D:\\Repositories\\FeverLux\\FeverluxApp\\FeverluxApp.csproj",
+        "projectPath": "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\FeverluxApp.csproj",
         "packagesPath": "C:\\Users\\pasho\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositories\\FeverLux\\FeverluxApp\\obj\\",
+        "outputPath": "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\va cash\\NuGetPackages"

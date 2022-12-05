@@ -115,10 +115,8 @@
                                    VerticalAlignment="Center"
                                    FontWeight="Medium"/>
 
-                                <controls:EyedCheckBox x:Name="showPassword"
-                                                       Margin="10,0,0,0">
-                                    
-                                </controls:EyedCheckBox>
+                                <CheckBox x:Name="showPassword"
+                                          Style="{StaticResource eyedCheckBox}"/>
                             </StackPanel>
 
                             <controls:BindablePasswordBox Password="{Binding Password, 
@@ -129,7 +127,7 @@
                                 <controls:BindablePasswordBox.Style>
                                     <Style TargetType="controls:BindablePasswordBox">
                                         <Style.Triggers>
-                                            <DataTrigger Binding="{Binding IsChecked, Mode=OneWay,
+                                            <DataTrigger Binding="{Binding IsChecked,
                                                                            ElementName=showPassword, 
                                                                            UpdateSourceTrigger=PropertyChanged}"
                                                          Value="True">
@@ -179,7 +177,8 @@
                                        FontWeight="Medium"
                                        FontFamily="Monserrat"
                                        HorizontalAlignment="Left"
-                                       TextWrapping="Wrap"/>
+                                       TextWrapping="Wrap"
+                                       Foreground="IndianRed"/>
 
                             <Button Content="LOGIN"
                                     Cursor="Hand"

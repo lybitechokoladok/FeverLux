@@ -31,9 +31,8 @@ D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\WPF\Co
 D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\WPF\Views\MainView.baml
 D:\visual_Studio_project\FeverluxApp\FeverluxApp\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
 D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\FeverluxApp.csproj.CopyComplete
-D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\WPF\Controls\EyedCheckBox.g.cs
-D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\WPF\Controls\EyedCheckBox.baml
 D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\WPF\Views\HomeView.g.cs
 D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\WPF\Views\ShopView.g.cs
 D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\WPF\Views\HomeView.baml
 D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\WPF\Views\ShopView.baml
+D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\WPF\Resources\Styles\CheckBoxStyle.baml

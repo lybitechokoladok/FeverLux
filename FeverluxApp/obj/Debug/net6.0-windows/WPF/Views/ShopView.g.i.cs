@@ -53,7 +53,7 @@ namespace FeverluxApp.WPF.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/FeverluxApp;V1.0.0.0;component/wpf/views/shopview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/FeverluxApp;component/wpf/views/shopview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\WPF\Views\ShopView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

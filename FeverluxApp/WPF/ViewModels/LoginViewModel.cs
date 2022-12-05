@@ -61,12 +61,25 @@ namespace FeverluxApp.WPF.ViewModels
 
         private bool CanExecuteLoginCommand(object obj)
         {
-            return true;
+            bool validData;
+            if (string.IsNullOrWhiteSpace(Username) || Username.Length < 3
+                || Password == null || Password.Length < 3)
+                validData = false;
+            else
+                validData = true;
+            return validData;
         }
 
         private void ExecuteLoginCommand(object obj)
         {
-            IsViewVisible= false;
+            if (Username == "admin" && Password == "admin")
+            {
+                IsViewVisible = false;
+            }
+            else 
+            {
+                ErrorMessage = "Wrong pssword or username";
+            }
         }
     }
 }

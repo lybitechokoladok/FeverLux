@@ -10,9 +10,6 @@
     <Compile Update="WPF\Controls\BindablePasswordBox.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="WPF\Controls\EyedCheckBox.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="WPF\Controls\NavigationBar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -33,10 +30,10 @@
     <Page Update="WPF\Controls\BindablePasswordBox.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="WPF\Controls\EyedCheckBox.xaml">
+    <Page Update="WPF\Controls\NavigationBar.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="WPF\Controls\NavigationBar.xaml">
+    <Page Update="WPF\Resources\Styles\CheckBoxStyle.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="WPF\Resources\Styles\IUColor.xaml">

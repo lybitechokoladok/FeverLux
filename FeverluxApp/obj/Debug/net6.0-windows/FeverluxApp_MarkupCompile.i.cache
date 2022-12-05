@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Repositories\FeverLux\FeverluxApp\obj\Debug\net6.0-windows\
+D:\visual_Studio_project\FeverluxApp\FeverluxApp\obj\Debug\net6.0-windows\
 FeverluxApp
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\Repositories\FeverLux\FeverluxApp\App.xaml
-9-683990406
+D:\visual_Studio_project\FeverluxApp\FeverluxApp\App.xaml
+9-196447577
 
-25536226306
+241189606132
 1951951141098
-WPF\Controls\BindablePasswordBox.xaml;WPF\Controls\EyedCheckBox.xaml;WPF\Controls\NavigationBar.xaml;WPF\Resources\Styles\ButtonStyle.xaml;WPF\Resources\Styles\IUColor.xaml;WPF\Views\HomeView.xaml;WPF\Views\LoginView.xaml;WPF\Views\MainView.xaml;WPF\Views\ShopView.xaml;
+WPF\Controls\BindablePasswordBox.xaml;WPF\Controls\NavigationBar.xaml;WPF\Resources\Styles\ButtonStyle.xaml;WPF\Resources\Styles\CheckBoxStyle.xaml;WPF\Resources\Styles\IUColor.xaml;WPF\Views\HomeView.xaml;WPF\Views\LoginView.xaml;WPF\Views\MainView.xaml;WPF\Views\ShopView.xaml;
 
-False
+True
 

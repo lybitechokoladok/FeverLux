@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g2W9ccR/quZUffYDwFi+X3XixlkchHOufWElOA+N/qCxY5jfCNAsBKHmkcxM50GkOZCt3pPOc2+NoTjFAFhz7g==",
+  "dgSpecHash": "IEhv9Tq7ZSHrTPm1+jtpbn1shFwh1yqKErhlFEESeLFO/v+h1AMci3hKrm5M6gRVcd02hrL1c+M0SZxl2qQWnw==",
   "success": true,
-  "projectFilePath": "D:\\Repositories\\FeverLux\\FeverluxApp\\FeverluxApp.csproj",
+  "projectFilePath": "D:\\visual_Studio_project\\FeverluxApp\\FeverluxApp\\FeverluxApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pasho\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512"
   ],

@@ -58,7 +58,7 @@ namespace FeverluxApp.WPF.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/FeverluxApp;V1.0.0.0;component/wpf/controls/navigationbar.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/FeverluxApp;component/wpf/controls/navigationbar.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\WPF\Controls\NavigationBar.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
